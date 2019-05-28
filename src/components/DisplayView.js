@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from 'react';
 import { Grid, Segment } from "semantic-ui-react";
 import SyntaxHighlighter from "react-syntax-highlighter";
 import { github } from "react-syntax-highlighter/dist/styles";

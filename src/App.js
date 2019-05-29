@@ -47,7 +47,10 @@ class App extends Component {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <DisplayView>
                 <Card className="navbar-nav mr-auto">
+                  <CardImg/>
                   <CardBody>
+                    <CardTitle></CardTitle>
+                    <CardSubtitle></CardSubtitle>
                     <CardText  className="nav-item">
                       <Link to={'/'} className="nav-link">Home</Link>
                     </CardText>

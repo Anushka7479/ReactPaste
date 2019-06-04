@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import { Card, CardImg, CardText, CardBody,
+  CardTitle, CardSubtitle, Button } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 import Create from './components/create.component';
 import Edit from './components/edit.component';
 import Index from './components/index.component';
-import DisplayView from './component/DisplayView';
+import DisplayView from './components/DisplayView';
 
 class App extends Component {
   constructor(props){

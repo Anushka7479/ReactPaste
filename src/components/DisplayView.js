@@ -5,7 +5,7 @@ import { github } from "react-syntax-highlighter/dist/styles";
 
 import "./DisplayView.css";
 
-class DisplayView extends React.Component {
+class DisplayView extends Component {
   constructor() {
     super();
 
@@ -59,7 +59,7 @@ class DisplayView extends React.Component {
           </Grid.Column>
         </Grid.Row>
       </Grid>
-    );
+    )
   }
 }
 
